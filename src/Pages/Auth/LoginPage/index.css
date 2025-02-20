@@ -1,0 +1,29 @@
+.login-page h1 {
+  font-size: 48px;
+  color: #262626;
+}
+.login-page p {
+  font-size: 18px;
+  color: #4C4C4D;
+}
+.login-page {
+  background-color: #E3E3E3;
+}
+.login-page .login-box {
+  width: 600px;
+  padding: 50px;
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+@media (max-width: 767px) {
+  .login-page h1 {
+    font-size: 40px;
+  }
+  .login-page p {
+    font-size: 14px;
+  }
+  .login-page .login-box {
+    padding: 20px;
+  }
+}
